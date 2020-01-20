@@ -21,7 +21,7 @@ main {
 .parallax {
   background-attachment: fixed;
   background-size: cover;
-  background: ;
+  background: url();
 }
 ::-webkit-scrollbar {
   display: none;
