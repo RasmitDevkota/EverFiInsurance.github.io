@@ -1,5 +1,5 @@
 function start() {
-    $('#next1).show();
+    $('#next1').show();
 };
 
 function next(q) {
