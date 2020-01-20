@@ -22,7 +22,9 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#slide
+#slide {
+  
+}
 
 /* Other */
 ::-webkit-scrollbar {
