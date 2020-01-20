@@ -18,7 +18,7 @@ main {
 }
 .parallax {
   /* The image used */
-  background-image: url("parallax.jpg");
+  background-image: url("parallax1.jpg");
 
   /* Set a specific height */
   height: 500px;
