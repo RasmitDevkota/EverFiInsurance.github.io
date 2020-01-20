@@ -28,7 +28,9 @@ main {
 .section-wrap {
   background-color: #202020;
 }
-.section-wrap:not(.section)
+.section-wrap:not(.section) {
+  bac
+}
 .section-wrap > h2 {
   width: 45%;
   margin-left: 27.5%;
