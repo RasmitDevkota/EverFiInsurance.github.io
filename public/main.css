@@ -24,7 +24,9 @@ main {
   flex-direction: column;
   background-color: #69a22f;
 }
-.section-wrap: 
+.section-wrap {
+  bac
+}
 .section {
   width: 80%;
 }
