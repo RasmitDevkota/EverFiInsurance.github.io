@@ -44,10 +44,8 @@ main {
   margin-left: 32.5%;
 }
 .section > p {
-  text-align: center;
+  text-align: cente;
   font-size: large;
-  color: chartreuse;
-  border: 2px solid #30b0f5
 }
 .parallax {
   background-image: url("parallax1.jpg");
