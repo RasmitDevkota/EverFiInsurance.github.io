@@ -11,7 +11,7 @@ html, body {
   color: #343434;
 }
 .nav-link :hover {
-  color: #0094e4;
+  color: ;
 }
 
 /* Main Content */
@@ -24,7 +24,7 @@ main {
   background-color: #69a22f;
 }
 .section {
-  width: 50%;
+  width: 80%;
 }
 .parallax {
   background-image: url("parallax1.jpg");
