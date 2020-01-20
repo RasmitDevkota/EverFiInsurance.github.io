@@ -59,7 +59,7 @@ main {
   justify-content: center;
 }
 .question-container {
-  d
+  display: flex;
 }
 /* Other */
 ::-webkit-scrollbar {
