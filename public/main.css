@@ -10,8 +10,6 @@ html, body {
 
 /* Main Content */
 main {
-  width: 90%;
-  margin-left: 5%;
 }
 .section {
   border: 1px #343434 1 1 1 1;
