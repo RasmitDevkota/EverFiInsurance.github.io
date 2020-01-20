@@ -35,6 +35,9 @@ main {
 .section-wrap > h2 {
   width: 45%;
   margin-left: 27.5%;
+  text-align: center;
+  color: chartreuse;
+  border: 2px solid #30b0f5;
 }
 .section {
   width: 35%;
