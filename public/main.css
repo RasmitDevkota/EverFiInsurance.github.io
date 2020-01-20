@@ -35,7 +35,6 @@ main {
 .section {
   width: 80%;
   margin-left: 10%;
-  
 }
 .section > p {
   text-align: center;
