@@ -28,7 +28,7 @@ main {
 .section-wrap {
   background-color: #202020;
 }
-.section-wrap:not(div) {
+.section-wrap *:not(div) {
   background-color: #30b0f5;
 }
 .section-wrap > h2 {
