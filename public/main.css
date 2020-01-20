@@ -19,7 +19,7 @@ main {
 .page-content {
   display: flex;
   flex-direction: column;
-  background-color: pink;
+  background-color: #343434;
 }
 .section-wrap {
   background-image: url('sectionwrapback.jpg');
