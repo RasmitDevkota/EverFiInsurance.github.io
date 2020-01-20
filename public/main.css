@@ -10,7 +10,7 @@ html, body {
 /* Main Content */
 .horizontal-scroll-wrapper {
   width: 100%;
-  height: 300px;
+  height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
   transform:rotate(-90deg) translateY(-100px);
