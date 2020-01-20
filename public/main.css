@@ -29,6 +29,7 @@ main {
 }
 .section {
   width: 80%;
+  background-color: #69a22f;
 }
 .page-content > h2 {
   margin-left: 40%;
