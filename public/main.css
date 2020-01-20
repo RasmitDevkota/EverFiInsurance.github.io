@@ -10,7 +10,9 @@ html, body {
 .nav-link {
   color: #343434;
 }
-.nav-link :hover
+.nav-link :hover {
+  col
+}
 
 /* Main Content */
 main {
