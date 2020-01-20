@@ -23,7 +23,7 @@ main {
   background-color: #343434;
 }
 .section-wrap {
-  background-image: url('sectionwrapback.jpg');
+  background-image: url('bodyback.jpg');
   opacity: 1;
 }
 .section-wrap > h2, p, a {
