@@ -58,7 +58,7 @@ main {
   flex-direction: row;
   justify-content: center;
 }
-.question-container {
+.question-text {
   display: flex;
   flex-direction: column;
   color: #007bff;
