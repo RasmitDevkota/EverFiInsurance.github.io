@@ -11,6 +11,12 @@ html, body {
 main {
   background-color: #84ceeb;
 }
+.horizontal-scroll-wrapper {
+  width: 100px;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 h2 {
   width: 90%;
   margin-left: 40%;
