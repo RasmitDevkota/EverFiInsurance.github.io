@@ -54,6 +54,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#quiz
 #slide {
   display: flex;
   flex-direction: row;
