@@ -31,10 +31,6 @@ main {
 }
 .section-wrap > h2, p {
   background-color: #00a028;
-  
-  text-align: center;
-  color: chartreuse;
-  border: 2px solid #30b0f5;
 }
 .section-wrap > h2 {
   width: 45%;
