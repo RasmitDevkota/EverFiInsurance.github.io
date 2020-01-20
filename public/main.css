@@ -27,7 +27,7 @@ main {
 .section {
   width: 80%;
 }
-.section > h2 {
+.page-content > h2 {
   margin-left: 50%;
 }
 .section > p {
