@@ -16,7 +16,9 @@ main {
   width: 90%;
   margin-left: 5%;
 }
-.section
+.section {
+  bord
+}
 .parallax {
   background-image: url("parallax1.jpg");
   height: 500px;
