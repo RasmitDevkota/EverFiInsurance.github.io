@@ -10,7 +10,7 @@ html, body {
 
 /* Main Content */
 main {
-  j
+  justify-content: center;
 }
 .page-content {
   display: flex;
