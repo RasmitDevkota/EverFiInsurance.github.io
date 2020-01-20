@@ -8,9 +8,6 @@ html, body {
   background-color: #6ab9ea;
 }
 /* Main Content */
-main {
-  background-color: #84ceeb;
-}
 .horizontal-scroll-wrapper {
   width: 100px;
   height: 300px;
