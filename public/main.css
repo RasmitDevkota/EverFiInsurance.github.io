@@ -27,7 +27,7 @@ html, body {
   height: 100px;
   transform: rotate(90deg);
   transform-origin: right top;
-} 
+}
 .parallax {
   background-image: url("parallax1.jpg");
   height: 500px;
