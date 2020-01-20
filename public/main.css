@@ -22,7 +22,7 @@ main {
 .page-content {
   display: flex;
   flex-direction: column;
-  background-color: #69a22f;
+  background-color: #343434;
 }
 .section-wrap {
   
