@@ -20,7 +20,6 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #343434;
-  border: 5px solid #06dd3c 1px 1px 1px 1px;
 }
 .section-wrap {
   background-image: url('sectionwrapback.jpg');
