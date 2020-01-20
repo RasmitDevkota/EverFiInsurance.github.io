@@ -15,7 +15,6 @@ h2 {
 .section {
   width: 90%;
   margin-left: 5%;
-  border: 10px solid #ca2c2c 1px 1px 1px 1px;
 }
 .parallax {
   background-image: url("parallax1.jpg");
