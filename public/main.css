@@ -10,9 +10,6 @@ body {
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
 }
-.nav-link {
-  color: #343434;
-}
 
 /* Main Content */
 main {
