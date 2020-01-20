@@ -29,7 +29,7 @@ main {
   background-image: url('sectionwrapback.jpg');
   opacity: 1;
 }
-.section-wrap > h2, p {
+.section-wrap > h2 {
   background-color: #00a028;
 }
 .section-wrap > h2 {
