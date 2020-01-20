@@ -53,7 +53,6 @@ main {
 #quiz {
   height: 500px;
 }
-
 #slide {
   display: flex;
   flex-direction: row;
