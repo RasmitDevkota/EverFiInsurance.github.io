@@ -40,7 +40,7 @@ main {
 }
 .section > p {
   font-size: xx-large;
-  line
+  line-height: ;
 }
 .parallax {
   background-image: url("parallax1.jpg");
