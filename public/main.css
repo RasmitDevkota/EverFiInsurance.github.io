@@ -63,7 +63,7 @@ main {
   flex-direction: column;
 }
 .custom-control-label {
-  color: 
+  color: #007bff;
 }
 /* Other */
 ::-webkit-scrollbar {
