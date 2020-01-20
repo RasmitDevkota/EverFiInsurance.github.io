@@ -5,7 +5,7 @@ html, body {
 }
 body {
   position: relative;
-  background-image: ;
+  background-image: url();
 }
 * {
   box-sizing: border-box;
