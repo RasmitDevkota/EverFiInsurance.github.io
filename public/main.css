@@ -9,6 +9,7 @@ html, body {
 }
 /* Main Content */
 main {
+  scroll-direction: horizontal;
   background-color: #84ceeb;
 }
 h2 {
