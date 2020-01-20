@@ -27,7 +27,9 @@ main {
 .section {
   width: 80%;
 }
-.section < p
+.section < p {
+  
+}
 .parallax {
   background-image: url("parallax1.jpg");
   height: 500px;
