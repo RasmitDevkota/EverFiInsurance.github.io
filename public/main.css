@@ -26,7 +26,7 @@ main {
   background-color: #343434;
 }
 .section-wrap {
-  background-image: url();
+  background-image: url('parallax1.jpg');
 }
 .section-wrap > h2, p {
   background-color: #30b0f5;
