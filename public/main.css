@@ -27,7 +27,6 @@ main {
   opacity: 1;
 }
 .section-wrap > h2, p, a {
-  background-color: #00a028;
   text-align: center;
   color: chartreuse;
   border: 2px solid #06dd3c;
