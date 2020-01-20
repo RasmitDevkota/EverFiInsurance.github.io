@@ -62,10 +62,6 @@ main {
   flex-direction: row;
   justify-content: center;
 }
-.carousel-control-next {
-  margin-top: 80%;
-}
-
 /* Other */
 ::-webkit-scrollbar {
   display: none;
