@@ -7,9 +7,6 @@ html, body {
 * {
   box-sizing: border-box;
 }
-.navbar {
-  background-color: #6ab9ea;
-}
 
 /* Main Content */
 .page-content {
