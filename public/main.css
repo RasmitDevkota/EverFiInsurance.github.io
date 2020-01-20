@@ -69,7 +69,7 @@ main {
 .mdl-button {
   background-color: #007bff;
 }
-.mdl-button {
+.mdl-button:hover {
   background-color: #007bff;
 }
 /* Other */
