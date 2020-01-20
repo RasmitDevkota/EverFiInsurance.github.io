@@ -38,7 +38,7 @@ main {
 }
 .section > p {
   text-align: center;
-  color: ;
+  color: chartreuse;
 }
 .parallax {
   background-image: url("parallax1.jpg");
