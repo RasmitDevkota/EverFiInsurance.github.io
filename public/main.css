@@ -61,7 +61,6 @@ main {
 .question-container {
   display: flex;
   flex-direction: column;
-  
   color: #007bff;
 }
 .custom-control-label {
