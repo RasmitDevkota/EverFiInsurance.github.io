@@ -4,7 +4,8 @@ html, body {
   background-color: #343434;
 }
 body {
-  font-family: Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 * {
   box-sizing: border-box;
