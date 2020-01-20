@@ -55,7 +55,8 @@ main {
 }
 #startBtn {
   font-size: 1000%;
-  color: #007bff; text-align: center; width: 30%;
+  color: #007bff;
+  text-align: center; width: 30%;
   margin-left: 35%;
   margin-top: 15%;
   -webkit-user-select: none;
