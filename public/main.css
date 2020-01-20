@@ -15,7 +15,7 @@ html, body {
 .page-content {
   display: flex;
   flex-direction: column;
-  background-color: ;
+  background-color: 69a22f;
 }
 .parallax {
   background-image: url("parallax1.jpg");
