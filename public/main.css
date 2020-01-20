@@ -19,9 +19,7 @@ main {
   width: 90%;
   margin-left: 5%;
 }
-.page-content {
-  background-color: #343434;
-}
+.page-content {}
 .section {
   border: 1px #343434 1 1 1 1;
 }
