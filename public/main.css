@@ -63,8 +63,6 @@ main {
   flex-direction: column;
   color: #007bff;
 }
-.custom-control-label {
-}
 /* Other */
 ::-webkit-scrollbar {
   display: none;
