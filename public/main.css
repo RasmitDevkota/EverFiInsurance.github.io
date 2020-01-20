@@ -29,6 +29,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /* Other */
 ::-webkit-scrollbar {
   display: none;
