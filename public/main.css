@@ -20,7 +20,7 @@ main {
 }
 .parallax {
   background-attachment: fixed;
-  back
+  background-size: ;
 }
 ::-webkit-scrollbar {
   display: none;
