@@ -55,7 +55,7 @@ main {
   background-size: cover;
 }
 #quiz {
-  height: 500%;
+  height: 500px;
 }
 #slide {
   display: flex;
