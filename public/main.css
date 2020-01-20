@@ -24,7 +24,7 @@ html, body {
 }
 #slide {
   display: flex;
-  fl
+  flex-direction: ;
   justify-content: center;
 }
 
