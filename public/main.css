@@ -14,13 +14,6 @@ header {
 .navbar {
   position: absolute;
 }
-.section {
-  display: flex;
-  flex-direction: row;
-}
-.section #types {
-  display: block;
-}
 ::-webkit-scrollbar {
   display: none;
 }
