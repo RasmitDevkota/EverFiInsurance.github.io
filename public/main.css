@@ -58,7 +58,9 @@ main {
   flex-direction: row;
   justify-content: center;
 }
-.
+.question-container {
+  
+}
 /* Other */
 ::-webkit-scrollbar {
   display: none;
