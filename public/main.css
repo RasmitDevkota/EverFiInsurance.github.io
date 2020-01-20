@@ -59,8 +59,6 @@ main {
   justify-content: center;
 }
 .question-text {
-  display: flex;
-  flex-direction: column;
   color: #007bff;
 }
 .custom-control-label {
