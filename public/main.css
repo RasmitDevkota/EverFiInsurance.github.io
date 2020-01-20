@@ -27,7 +27,9 @@ main {
 .section {
   width: 80%;
 }
-.section > h1
+.section > h2 {
+  
+}
 .section > p {
   text-align: center;
 }
