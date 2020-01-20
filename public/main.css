@@ -27,6 +27,7 @@ main {
 }
 .section-wrap {
   background-image: url('sectionwrapback.jpg');
+  
 }
 .section-wrap > h2, p {
   background-color: #30b0f5;
