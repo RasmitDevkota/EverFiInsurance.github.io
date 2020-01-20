@@ -43,7 +43,9 @@ main {
   width: 35%;
   margin-left: 32.5%;
 }
-.section 
+.section #types {
+  justify-content: center;
+}
 .section > p {
   font-size: large;
 }
