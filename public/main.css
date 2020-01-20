@@ -12,7 +12,7 @@ html, body {
 }
 
 /* Main Content */
-page-content {
+.page-content {
   display: flex;
   flex-direction: row;
 }
