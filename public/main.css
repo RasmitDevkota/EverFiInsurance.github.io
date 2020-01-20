@@ -15,7 +15,7 @@ header {
   position: absolute;
 }
 main {
-  width:L
+  width: 80%;
 }
 ::-webkit-scrollbar {
   display: none;
