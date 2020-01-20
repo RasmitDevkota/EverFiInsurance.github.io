@@ -19,7 +19,7 @@ header {
   flex-direction: row;
 }
 .section #types {
-  dis
+  display: block;
 }
 ::-webkit-scrollbar {
   display: none;
