@@ -15,7 +15,7 @@ html, body {
 .page-content {
   display: flex;
   flex-direction: column;
-  background-attachment: fixed;
+  background-color: ;
 }
 .parallax {
   background-image: url("parallax1.jpg");
