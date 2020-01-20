@@ -41,7 +41,7 @@ main {
 }
 .section > p {
   text-align: center;
-  font-size: ;
+  font-size: large;
   color: chartreuse;
 }
 .parallax {
