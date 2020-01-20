@@ -13,7 +13,7 @@ html, body {
 
 /* Main Content */
 page-content {
-  d
+  display: ;
 }
 .parallax {
   background-image: url("parallax1.jpg");
