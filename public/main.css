@@ -27,6 +27,12 @@ main {
 .section-wrap {
   background-color: #343434;
 }
+
+.section-wrap > h2 {
+  width: 45%;
+  text-align: center;
+  background-color: #0094e4;
+}
 .section {
   width: 80%;
   background-color: #0094e4;
