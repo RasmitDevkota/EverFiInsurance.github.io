@@ -24,7 +24,8 @@ html, body {
 }
 #slide {
   display: flex;
-  ju
+  fl
+  justify-content: center;
 }
 
 /* Other */
