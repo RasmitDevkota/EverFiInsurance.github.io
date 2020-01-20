@@ -13,7 +13,7 @@ html, body {
 
 /* Main Content */
 .horizontal-scroll-wrapper {
-  bor
+  border-color: 1;
   width: 100px;
   height: 100px;
   overflow-y: auto;
