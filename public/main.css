@@ -19,7 +19,7 @@ header {
   flex-direction: row;
 }
 .section #types {
-  flex-direction: row;
+  flex-direction: ;
   width: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
