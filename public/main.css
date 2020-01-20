@@ -60,7 +60,7 @@ main {
 }
 .question-container {
   display: flex;
-  fl
+  flex-direction: column;
 }
 /* Other */
 ::-webkit-scrollbar {
