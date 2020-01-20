@@ -18,7 +18,7 @@ html, body {
 main {
   width: 80%;
   margin-left: 10%;
-  background-image: url('parallax1.jpg');
+  background-image: url(');
 }
 .page-content {
   display: flex;
