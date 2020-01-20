@@ -13,7 +13,7 @@ body {
   z-index: 1;
 }
 main {
-  width: 100%;
+  width: 900%;
 }
 .parallax {
   background-image: url("parallax1.jpg");
