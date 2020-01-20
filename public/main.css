@@ -15,7 +15,6 @@ body {
 main {
   width: 80%;
   margin-left: 10%;
-  background-color: #ff0000;
 }
 .page-content {
   display: flex;
