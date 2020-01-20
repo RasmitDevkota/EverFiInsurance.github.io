@@ -8,9 +8,6 @@ body {
 * {
   box-sizing: border-box;
 }
-header {
-  position: relative;
-}
 .navbar {
   position: fixed;
   z-index: 1;
