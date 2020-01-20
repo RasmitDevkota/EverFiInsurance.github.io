@@ -67,7 +67,7 @@ main {
   color: #007bff;
 }
 .mdl-button {
-  opacity: 0;
+  opacity: -1;
 }
 /* Other */
 ::-webkit-scrollbar {
