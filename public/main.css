@@ -23,7 +23,7 @@ html, body {
   background-size: cover;
 }
 #slide {
-  display: f;
+  display: flex;
 }
 
 /* Other */
