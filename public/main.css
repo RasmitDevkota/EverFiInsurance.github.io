@@ -62,6 +62,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+.custom-control-label
 /* Other */
 ::-webkit-scrollbar {
   display: none;
