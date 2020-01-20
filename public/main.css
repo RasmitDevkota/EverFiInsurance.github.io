@@ -42,6 +42,7 @@ main {
   text-align: center;
   font-size: large;
   color: chartreuse;
+  border: 2px solid #30b0f5
 }
 .parallax {
   background-image: url("parallax1.jpg");
