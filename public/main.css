@@ -13,6 +13,7 @@ body {
   z-index: 1;
 }
 main {
+  background-color: #343434;
   width: 90%;
   margin-left: 5%;
 }
