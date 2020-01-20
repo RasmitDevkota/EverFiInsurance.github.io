@@ -28,6 +28,9 @@ main {
 .section-wrap {
   background-color: #202020;
 }
+.section-wrap {
+  background-color: #30b0f5;
+}
 .section-wrap > h2 {
   width: 45%;
   margin-left: 27.5%;
