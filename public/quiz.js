@@ -1,5 +1,7 @@
 function start() {
-    
+
+    $('#q' + q).hide();
+    $('#next' + q + 1).show();
 };
 
 function next(q) {
