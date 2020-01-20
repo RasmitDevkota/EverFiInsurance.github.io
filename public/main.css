@@ -55,7 +55,7 @@ main {
 }
 #startBtn {
   font-size: 1000%; color: #007bff; text-align: center; width: 30%; margin-left: 35%; margin-top: 15%; -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
+  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
