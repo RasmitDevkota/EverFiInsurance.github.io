@@ -29,7 +29,6 @@ main {
 .section-wrap > h2, p, a {
   text-align: center;
   color: #00a028;
-  border: 2px solid #06dd3c;
 }
 .section-wrap > h2 {
   width: 45%;
