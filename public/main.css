@@ -18,7 +18,9 @@ main {
   width: 80%;
   margin-left: 5%;;
 }
-.parallax {}
+.parallax {
+  
+}
 ::-webkit-scrollbar {
   display: none;
 }
