@@ -14,13 +14,13 @@ header {
 .navbar {
   position: absolute;
 }
-/* .section {
+.section {
   display: flex;
   flex-direction: row;
 }
 .section #types {
   flex-direction: column;
-} */
+}
 ::-webkit-scrollbar {
   display: none;
 }
