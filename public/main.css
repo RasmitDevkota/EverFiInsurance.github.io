@@ -27,6 +27,7 @@ main {
 .section {
   width: 80%;
 }
+.section
 .section > p {
   text-align: center;
 }
