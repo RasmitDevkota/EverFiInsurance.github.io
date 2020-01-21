@@ -4,7 +4,7 @@ function start() {
 };
 
 function next(q) {
-    if(q == 1) {
+    if(q == 10) {
         $('#q' + q).hide();
         $('#done').show();
     } {
