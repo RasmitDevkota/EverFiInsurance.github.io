@@ -1,10 +1,16 @@
 function start() {
+    $('#startBtn').hide();
     $('#q1').show();
 };
 
 function next(q) {
-    $('#q' + q).hide();
-    $('#next' + q + 1).show();
+    if(q == 1) {
+        $('#q' + q).hide();
+        $('#done').show();
+    } {
+        $('#q' + q).hide();
+        $('#next' + q + 1).show();
+    }
 };
 
 function checkbox(q, correct) {
