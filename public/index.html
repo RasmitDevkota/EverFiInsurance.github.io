@@ -114,25 +114,365 @@
                         <i id="startBtn" class="material-icons" onclick="start()">power_settings_new</i>
 
                         <form id="q1" style="display: none;">
-                            <h2 class="question-text">What is the answer?</h2>
+                            <h2 class="question-text">What does insurance help you with?</h2>
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" id="q11" name="example1">
-                                <label class="custom-control-label" for="q11">Option 1</label>
+                                <label class="custom-control-label" for="q11">Minimize monthly expenses</label>
                             </div>
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" id="q12" name="example1">
-                                <label class="custom-control-label" for="q12">Option 2</label>
+                                <label class="custom-control-label" for="q12">Financially protect against unexpected accidents</label>
                             </div>
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" id="q13" name="example1">
-                                <label class="custom-control-label" for="q13">Option 3</label>
+                                <label class="custom-control-label" for="q13">Reduce the chances of getting into an accident</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q14" name="example1">
+                                <label class="custom-control-label" for="q14">Cover all out-of-pocket costs</label>
                             </div>
 
                             <br>
 
                             <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(1, 2)">Check</button>
                             &nbsp;
-                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(1)">Next</button>
+                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(1)" style="display: none;">Next</button>
+
+                            <br>
+                            <br>
+
+                            <div id="correct1" class="alert alert-success" style="display: none;">
+                                <strong>Correct!</strong>
+                                <!--Explanation-->
+                            </div>
+                            
+                            <div id="wrong1" class="alert alert-danger" style="display: none;">
+                                <strong>Wrong!</strong> Try again!
+                            </div>
+                        </form>
+
+                        <form id="q2" style="display: none;">
+                            <h2 class="question-text"> The amount that you have to pay out of pocket on a loss before the insurance begins paying is the:</h2>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q21" name="example1">
+                                <label class="custom-control-label" for="q21">Premium</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q22" name="example1">
+                                <label class="custom-control-label" for="q22">Co-Insurance</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q23" name="example1">
+                                <label class="custom-control-label" for="q23">Deductible</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q24" name="example1">
+                                <label class="custom-control-label" for="q24">None of the above</label>
+                            </div>
+
+                            <br>
+
+                            <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(2, 3)">Check</button>
+                            &nbsp;
+                            <button id="next2" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(2)" style="display: none;">Next</button>
+
+                            <br>
+                            <br>
+
+                            <div id="correct2" class="alert alert-success" style="display: none;">
+                                <strong>Correct!</strong>
+                                <!--Explanation-->
+                            </div>
+                            
+                            <div id="wrong2" class="alert alert-danger" style="display: none;">
+                                <strong>Wrong!</strong> Try again!
+                            </div>
+                        </form>
+
+                        <form id="q3" style="display: none;">
+                            <h2 class="question-text">What does insurance help you with?</h2>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q31" name="example1">
+                                <label class="custom-control-label" for="q31">Minimize monthly expenses</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q32" name="example1">
+                                <label class="custom-control-label" for="q32">Financially protect against unexpected accidents</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q33" name="example1">
+                                <label class="custom-control-label" for="q33">Reduce the chances of getting into an accident</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q34" name="example1">
+                                <label class="custom-control-label" for="q34">Cover all out-of-pocket costs</label>
+                            </div>
+
+                            <br>
+
+                            <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(3, 1)">Check</button>
+                            &nbsp;
+                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(3)" style="display: none;">Next</button>
+
+                            <br>
+                            <br>
+
+                            <div id="correct3" class="alert alert-success" style="display: none;">
+                                <strong>Correct!</strong>
+                                <!--Explanation-->
+                            </div>
+                            
+                            <div id="wrong3" class="alert alert-danger" style="display: none;">
+                                <strong>Wrong!</strong> Try again!
+                            </div>
+                        </form>
+
+                        <form id="q4" style="display: none;">
+                            <h2 class="question-text">What does insurance help you with?</h2>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q11" name="example1">
+                                <label class="custom-control-label" for="q11">Minimize monthly expenses</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q12" name="example1">
+                                <label class="custom-control-label" for="q12">Financially protect against unexpected accidents</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q13" name="example1">
+                                <label class="custom-control-label" for="q13">Reduce the chances of getting into an accident</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q14" name="example1">
+                                <label class="custom-control-label" for="q14">Cover all out-of-pocket costs</label>
+                            </div>
+
+                            <br>
+
+                            <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(1, 2)">Check</button>
+                            &nbsp;
+                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(1)" style="display: none;">Next</button>
+
+                            <br>
+                            <br>
+
+                            <div id="correct1" class="alert alert-success" style="display: none;">
+                                <strong>Correct!</strong>
+                                <!--Explanation-->
+                            </div>
+                            
+                            <div id="wrong1" class="alert alert-danger" style="display: none;">
+                                <strong>Wrong!</strong> Try again!
+                            </div>
+                        </form>
+                        <form id="q1" style="display: none;">
+                            <h2 class="question-text">What does insurance help you with?</h2>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q11" name="example1">
+                                <label class="custom-control-label" for="q11">Minimize monthly expenses</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q12" name="example1">
+                                <label class="custom-control-label" for="q12">Financially protect against unexpected accidents</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q13" name="example1">
+                                <label class="custom-control-label" for="q13">Reduce the chances of getting into an accident</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q14" name="example1">
+                                <label class="custom-control-label" for="q14">Cover all out-of-pocket costs</label>
+                            </div>
+
+                            <br>
+
+                            <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(1, 2)">Check</button>
+                            &nbsp;
+                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(1)" style="display: none;">Next</button>
+
+                            <br>
+                            <br>
+
+                            <div id="correct1" class="alert alert-success" style="display: none;">
+                                <strong>Correct!</strong>
+                                <!--Explanation-->
+                            </div>
+                            
+                            <div id="wrong1" class="alert alert-danger" style="display: none;">
+                                <strong>Wrong!</strong> Try again!
+                            </div>
+                        </form>
+                        <form id="q1" style="display: none;">
+                            <h2 class="question-text">What does insurance help you with?</h2>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q11" name="example1">
+                                <label class="custom-control-label" for="q11">Minimize monthly expenses</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q12" name="example1">
+                                <label class="custom-control-label" for="q12">Financially protect against unexpected accidents</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q13" name="example1">
+                                <label class="custom-control-label" for="q13">Reduce the chances of getting into an accident</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q14" name="example1">
+                                <label class="custom-control-label" for="q14">Cover all out-of-pocket costs</label>
+                            </div>
+
+                            <br>
+
+                            <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(1, 2)">Check</button>
+                            &nbsp;
+                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(1)" style="display: none;">Next</button>
+
+                            <br>
+                            <br>
+
+                            <div id="correct1" class="alert alert-success" style="display: none;">
+                                <strong>Correct!</strong>
+                                <!--Explanation-->
+                            </div>
+                            
+                            <div id="wrong1" class="alert alert-danger" style="display: none;">
+                                <strong>Wrong!</strong> Try again!
+                            </div>
+                        </form>
+                        <form id="q1" style="display: none;">
+                            <h2 class="question-text">What does insurance help you with?</h2>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q11" name="example1">
+                                <label class="custom-control-label" for="q11">Minimize monthly expenses</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q12" name="example1">
+                                <label class="custom-control-label" for="q12">Financially protect against unexpected accidents</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q13" name="example1">
+                                <label class="custom-control-label" for="q13">Reduce the chances of getting into an accident</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q14" name="example1">
+                                <label class="custom-control-label" for="q14">Cover all out-of-pocket costs</label>
+                            </div>
+
+                            <br>
+
+                            <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(1, 2)">Check</button>
+                            &nbsp;
+                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(1)" style="display: none;">Next</button>
+
+                            <br>
+                            <br>
+
+                            <div id="correct1" class="alert alert-success" style="display: none;">
+                                <strong>Correct!</strong>
+                                <!--Explanation-->
+                            </div>
+                            
+                            <div id="wrong1" class="alert alert-danger" style="display: none;">
+                                <strong>Wrong!</strong> Try again!
+                            </div>
+                        </form>
+                        <form id="q1" style="display: none;">
+                            <h2 class="question-text">What does insurance help you with?</h2>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q11" name="example1">
+                                <label class="custom-control-label" for="q11">Minimize monthly expenses</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q12" name="example1">
+                                <label class="custom-control-label" for="q12">Financially protect against unexpected accidents</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q13" name="example1">
+                                <label class="custom-control-label" for="q13">Reduce the chances of getting into an accident</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q14" name="example1">
+                                <label class="custom-control-label" for="q14">Cover all out-of-pocket costs</label>
+                            </div>
+
+                            <br>
+
+                            <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(1, 2)">Check</button>
+                            &nbsp;
+                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(1)" style="display: none;">Next</button>
+
+                            <br>
+                            <br>
+
+                            <div id="correct1" class="alert alert-success" style="display: none;">
+                                <strong>Correct!</strong>
+                                <!--Explanation-->
+                            </div>
+                            
+                            <div id="wrong1" class="alert alert-danger" style="display: none;">
+                                <strong>Wrong!</strong> Try again!
+                            </div>
+                        </form>
+                        <form id="q1" style="display: none;">
+                            <h2 class="question-text">What does insurance help you with?</h2>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q11" name="example1">
+                                <label class="custom-control-label" for="q11">Minimize monthly expenses</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q12" name="example1">
+                                <label class="custom-control-label" for="q12">Financially protect against unexpected accidents</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q13" name="example1">
+                                <label class="custom-control-label" for="q13">Reduce the chances of getting into an accident</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q14" name="example1">
+                                <label class="custom-control-label" for="q14">Cover all out-of-pocket costs</label>
+                            </div>
+
+                            <br>
+
+                            <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(1, 2)">Check</button>
+                            &nbsp;
+                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(1)" style="display: none;">Next</button>
+
+                            <br>
+                            <br>
+
+                            <div id="correct1" class="alert alert-success" style="display: none;">
+                                <strong>Correct!</strong>
+                                <!--Explanation-->
+                            </div>
+                            
+                            <div id="wrong1" class="alert alert-danger" style="display: none;">
+                                <strong>Wrong!</strong> Try again!
+                            </div>
+                        </form>
+                        <form id="q1" style="display: none;">
+                            <h2 class="question-text">What does insurance help you with?</h2>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q11" name="example1">
+                                <label class="custom-control-label" for="q11">Minimize monthly expenses</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q12" name="example1">
+                                <label class="custom-control-label" for="q12">Financially protect against unexpected accidents</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q13" name="example1">
+                                <label class="custom-control-label" for="q13">Reduce the chances of getting into an accident</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="q14" name="example1">
+                                <label class="custom-control-label" for="q14">Cover all out-of-pocket costs</label>
+                            </div>
+
+                            <br>
+
+                            <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="checkbox(1, 2)">Check</button>
+                            &nbsp;
+                            <button id="next1" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="next(1)" style="display: none;">Next</button>
 
                             <br>
                             <br>
