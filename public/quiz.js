@@ -8,7 +8,7 @@ function next(q) {
         $('#q' + q).hide();
         $('#done').show();
     } else {
-        var 
+        var n = q+1
         $('#q' + q).hide();
         $('#q' + q + 1).show();
     }
