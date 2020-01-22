@@ -10,7 +10,7 @@ function next(q) {
     } else {
         var n = q + 1;
         $('#q' + q).hide();
-        $('#q' + q + 1).show();
+        $('#q' + n).show();
     }
 };
 
