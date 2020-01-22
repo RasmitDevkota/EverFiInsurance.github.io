@@ -9,7 +9,7 @@ function next(q) {
         $('#done').show();
     } else {
         $('#q' + q).hide();
-        $('#next' + q + 1).show();
+        $('#q + 1).show();
     }
 };
 
