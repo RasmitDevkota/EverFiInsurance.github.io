@@ -73,7 +73,7 @@ main {
 .question-text, .custom-control-label {
   color: #007bff;
 }
-.custom-control-input, custom-control-label {
+.custom-control-input, .custom-control-label {
   line-height: 200%;
   font-size: 150%;
 }
