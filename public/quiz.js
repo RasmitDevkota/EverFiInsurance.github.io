@@ -8,6 +8,8 @@ function next(q) {
     if(q == 10) {
         $('#q' + q).hide();
         $('#done').show();
+
+        $('#done').show();
     } else {
         var n = q + 1;
         $('#q' + q).hide();
