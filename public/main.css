@@ -71,7 +71,7 @@ main {
   justify-content: center;
 }
 .custom-control-input {
-  font-size: ;
+  font-size: larger;
 }
 .question-text, .custom-control-label {
   color: #007bff;
