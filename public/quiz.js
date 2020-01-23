@@ -9,7 +9,6 @@ function next(q) {
         $('#done').show();
     } else {
         var n = q + 1;
-        score += 1;
         $('#q' + q).hide();
         $('#q' + n).show();
     }
