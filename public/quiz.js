@@ -9,7 +9,7 @@ function next(q) {
         $('#q' + q).hide();
         $('#done').show();
 
-        $('#done').show();
+        $('#message').show();
     } else {
         var n = q + 1;
         $('#q' + q).hide();
