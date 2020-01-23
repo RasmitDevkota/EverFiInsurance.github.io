@@ -1,6 +1,4 @@
-window.onload = function () {
-    var score = 0;
-};
+
 
 function start() {
     $('#startBtn').hide();
