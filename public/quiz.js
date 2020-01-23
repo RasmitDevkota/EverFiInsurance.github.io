@@ -20,6 +20,7 @@ function checkbox(q, correct) {
     if ($('#q' + q + correct).is(':checked')) {
         $('#correct' + q).show();
         $('#next' + q).show();
+        
     } else {
         $('#wrong' + q).show();
         $('#next' + q).hide();
