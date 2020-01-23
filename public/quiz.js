@@ -1,5 +1,4 @@
 function start() {
-    var score = 0;
     $('#startBtn').hide();
     $('#q1').show();
 };
