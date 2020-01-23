@@ -71,10 +71,10 @@ main {
   justify-content: center;
 }
 .custom-control-input {
-  font-size: 100px;
 }
 .question-text, .custom-control-label {
   color: #007bff;
+  font-size: 100px;
 }
 .mdl-button {
   background-color: #007bff;
