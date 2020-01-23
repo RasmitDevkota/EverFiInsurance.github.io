@@ -1,5 +1,4 @@
-function start() {
-    $('#startBtn').hide();
+function start() {    $('#startBtn').hide();
     $('#q1').show();
 };
 
