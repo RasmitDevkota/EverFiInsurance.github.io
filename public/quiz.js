@@ -12,6 +12,7 @@ function next(q) {
         $('#message').html("Good job! Your score is " + score + "/10!");
     } else {
         var n = q + 1;
+        score +
         $('#q' + q).hide();
         $('#q' + n).show();
     }
