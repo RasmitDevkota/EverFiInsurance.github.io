@@ -1,5 +1,3 @@
-
-
 function start() {
     $('#startBtn').hide();
     $('#q1').show();
