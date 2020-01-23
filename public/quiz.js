@@ -1,4 +1,6 @@
-window.onload = function
+window.onload = function () {
+    
+}
 
 function start() {
     $('#startBtn').hide();
