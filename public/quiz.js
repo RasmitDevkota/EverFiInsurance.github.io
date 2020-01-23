@@ -7,7 +7,7 @@ function next(q) {
     if (q == 1) {
         var score = 1;
     }
-    if(q == 10) {
+     else if(q == 10) {
         $('#q' + q).hide();
         $('#done').show();
         $('#message').html("Good job! Your score is " + score + "/10!");
