@@ -70,8 +70,8 @@ main {
   flex-direction: row;
   justify-content: center;
 }
-custom-control-input {
-  
+.custom-control-input {
+
 }
 .question-text, .custom-control-label {
   color: #007bff;
