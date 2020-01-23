@@ -5,6 +5,7 @@ function start() {
 };
 
 function next(q) {
+    score
     if(q == 10) {
         $('#q' + q).hide();
         $('#done').show();
