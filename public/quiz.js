@@ -9,7 +9,7 @@ function next(q) {
         $('#done').show();
         $('#done').css({
             "display": "flex",
-            "flex-direction": "row" justify - content: center;
+            "flex-direction": "row"justify - content: center;
         });
     } else {
         var n = q + 1;
