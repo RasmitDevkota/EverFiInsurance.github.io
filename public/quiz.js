@@ -10,7 +10,7 @@ function next(q) {
         $('#done').css({
             "display": "flex",
             "flex-direction": "row",
-            "justify - content: center;
+            "justify - content": center;
         });
     } else {
         var n = q + 1;
