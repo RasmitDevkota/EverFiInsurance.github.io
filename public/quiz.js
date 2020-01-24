@@ -25,3 +25,5 @@ function checkbox(q, correct) {
         $('#next' + q).hide();
     }
 };
+
+reset
