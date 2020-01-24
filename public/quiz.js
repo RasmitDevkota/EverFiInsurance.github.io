@@ -27,5 +27,6 @@ function checkbox(q, correct) {
 };
 
 function reset() {
-    
+function start() {
+
 }
