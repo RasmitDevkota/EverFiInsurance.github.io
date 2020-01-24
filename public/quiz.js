@@ -27,6 +27,6 @@ function checkbox(q, correct) {
 };
 
 function reset() {
-    $('#startBtn').hide();
+    $('#done').hide();
     $('#q1').show();
 }
