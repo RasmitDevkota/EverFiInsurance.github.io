@@ -8,7 +8,8 @@ function next(q) {
         $('#q' + q).hide();
         $('#done').show();
         $('#done').css({
-            "display": "flex", "flex-direction": "row" justify - content: center;
+            "display": "flex",
+            "flex-direction": "row" justify - content: center;
         });
     } else {
         var n = q + 1;
