@@ -26,4 +26,4 @@ function checkbox(q, correct) {
     }
 };
 
-reset
+function reset
