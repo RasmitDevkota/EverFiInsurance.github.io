@@ -34,6 +34,6 @@ function checkbox(q, correct) {
 
 function reset() {
     $('#done').hide();
-    $('#done').hide();
+    $('#message').hide();
     $('#q1').show();
 };
