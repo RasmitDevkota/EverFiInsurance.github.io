@@ -62,7 +62,6 @@ main {
   margin-top: 15%;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 #startBtn:hover {
