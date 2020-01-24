@@ -1,6 +1,6 @@
-function start() {
-    $('#startBtn').hide();
+function start() {e();
     $('#q1').show();
+    $('#startBtn').hid
 };
 
 function next(q) {
