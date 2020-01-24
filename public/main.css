@@ -65,6 +65,7 @@ main {
   -ms-user-select: none;
   user-select: none;
 }
+#startBtn
 #slide {
   display: flex;
   flex-direction: row;
