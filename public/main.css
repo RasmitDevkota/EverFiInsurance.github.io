@@ -10,8 +10,10 @@ body {
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  -ms-user-select: none;
-
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 /* Main Content */
