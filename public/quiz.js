@@ -7,6 +7,7 @@ function next(q) {
     if (q == 10) {
         $('#q' + q).hide();
         $('#done').show();
+        $('#done').show();
         $('#done').css({
             "display": "flex",
             "flex-direction": "row",
