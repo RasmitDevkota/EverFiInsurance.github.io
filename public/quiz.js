@@ -7,7 +7,7 @@ function next(q) {
     if (q == 10) {
         $('#q' + q).hide();
         $('#done').show();
-        $('#done').css("display", "flex", "flex-direction", "row" justify - content: center;);
+        $('#done').css("display": "flex", "flex-direction", "row" justify - content: center;);
     } else {
         var n = q + 1;
         $('#q' + q).hide();
