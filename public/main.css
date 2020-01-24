@@ -10,7 +10,6 @@ body {
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
