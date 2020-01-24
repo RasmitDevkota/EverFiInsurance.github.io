@@ -62,9 +62,6 @@ main {
   width: 30%;
   margin-left: 35%;
   margin-top: 15%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
 }
 #startBtn:hover {
   cursor: pointer;
