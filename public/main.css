@@ -46,7 +46,7 @@ main {
   line-height: 40px;
 }
 .section > form {
-  justify-content: center;
+  justify-content: ;
 }
 .parallax {
   background-image: url("parallax1.jpg");
