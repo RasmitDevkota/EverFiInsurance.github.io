@@ -45,9 +45,6 @@ main {
   font-size: xx-large;
   line-height: 40px;
 }
-.section > form {
-  margin-top: 20%;
-}
 .parallax {
   background-image: url("parallax1.jpg");
   height: 500px;
